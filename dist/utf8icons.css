@@ -1,0 +1,9 @@
+@charset "UTF-8";
+i.utf8i {
+  font-family: "Arial Unicode MS";
+  font-weight: 400;
+  font-style: normal; }
+  i.utf8i.utf8i-flowerette:before {
+    content: "✿"; }
+  i.utf8i.utf8i-star:before {
+    content: "★"; }

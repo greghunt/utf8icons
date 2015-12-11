@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import "characters";
+
+i.utf8i {
+  font-family: "Arial Unicode MS";
+  font-weight: 400;
+  font-style: normal;
+
+  @each $name, $unicode in $characters {
+      &.utf8i-#{$name} {
+        &:before {
+          content: "#{$unicode}";
+        }
+      }
+  }
+}
