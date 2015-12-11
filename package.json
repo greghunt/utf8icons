@@ -1,0 +1,31 @@
+{
+  "name": "utf8icons",
+  "version": "1.0.0",
+  "description": "High performance icon set using UTF-8 characters.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/greghunt/utf8icons.git"
+  },
+  "keywords": [
+    "utf8",
+    "unicode",
+    "icons",
+    "css",
+    "icon",
+    "set"
+  ],
+  "author": "Greg Hunt <greg@valhallamovement.com>",
+  "license": "(OFL-1.1 AND MIT)",
+  "bugs": {
+    "url": "https://github.com/greghunt/utf8icons/issues"
+  },
+  "homepage": "https://github.com/greghunt/utf8icons#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
